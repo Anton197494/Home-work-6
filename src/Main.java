@@ -6,6 +6,7 @@ public class Main {
         task4(10);
         task5(1904);
         task6(7);
+        task7(1);
 
 
 
@@ -53,6 +54,15 @@ public class Main {
 
     public static void task6(int i) {
         for (; i <= 98; i = i + 7) {
+            System.out.println(i);
+        }
+    }
+
+
+
+
+    public static void task7(int i) {
+        for (; i <= 512; i = i * 2) {
             System.out.println(i);
         }
     }
