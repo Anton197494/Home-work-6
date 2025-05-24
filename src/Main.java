@@ -3,6 +3,7 @@ public class Main {
         task1(1);
         task2(10);
         task3(0);
+        task4(10);
 
 
 
@@ -27,6 +28,13 @@ public class Main {
 
     public static void task3(int i) {
         for (; i <= 17; i = i +2) {
+            System.out.println(i);
+        }
+    }
+
+
+    public static void task4(int i) {
+        for (; i >= -10; i --) {
             System.out.println(i);
         }
     }
