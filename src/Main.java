@@ -1,5 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        task1(1);
+
+
+
+
+
+
+    }
+    public static void task1(int i) {
+        for (; i <= 10; i++) {
+            System.out.println(i);
+        }
+
+
     }
 }
