@@ -4,6 +4,7 @@ public class Main {
         task2(10);
         task3(0);
         task4(10);
+        task5(1904);
 
 
 
@@ -35,6 +36,14 @@ public class Main {
 
     public static void task4(int i) {
         for (; i >= -10; i --) {
+            System.out.println(i);
+        }
+    }
+
+
+
+    public static void task5(int i) {
+        for (; i <= 2096; i = i + 4) {
             System.out.println(i);
         }
     }
